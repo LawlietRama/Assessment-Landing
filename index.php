@@ -93,6 +93,9 @@
             case 'kegiatan':
               include __DIR__ . '/pages/kegiatan.php';
               break;
+            case 'kegiatan-detail':
+              include __DIR__ . '/pages/kegiatan-detail.php';
+              break;
             default:
               #code...
               include __DIR__ . '/pages/home.php';

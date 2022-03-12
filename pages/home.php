@@ -2,9 +2,9 @@
 <div class="row">
     <div class="col-lg-12">
         <header class="row px-4 py-5 align-items-center justify-content-around">
-            <div class="d-flex col-md-6 flex-wrap text-center">
+            <div class="d-flex col-md-6 flex-wrap align-items-center justify-content-center">
                 <div class="d-flex flex-column align-items-center">
-                    <img src="dist/img/assets/gubsu.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
+                    <img src="dist/img/assets/gubsu.png" class="mx-3 d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
                     <h6>Edy Rahmayadi</h6>
                     <p class="header-left-text">Gubernur Sumatera Utara</p>
                 </div>
