@@ -40,8 +40,16 @@ header {
   z-index: 0; */
 }
 
+.white-text {
+  color: white;
+}
+
 .header-title-text {
   font-size: 24px;
+}
+
+.header-left-text {
+  font-size: 16px;
 }
 
 .img-head-1 {

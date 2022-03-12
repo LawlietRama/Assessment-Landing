@@ -28,11 +28,11 @@
       <div class="container">
         <a href="index.php" class="navbar-brand">
           <div class="mr-auto d-flex flex-row align-items-center">
-            <img src="dist/img/assets/computerLogo.png" alt="AdminLTE Logo" class="logo img-fluid img-circle" style="opacity: .8; height: 102px">
+            <img src="dist/img/assets/logo-provsu.png" alt="Logo ProvSU" class="logo img-fluid img-circle" style="opacity: .8; height: 102px">
             <div class="d-flex flex-column">
-              <span class="brand-text font-weight-bold">Pusat Asesmen</span>
-              <span class="text-sm font-weight-light">Pemerintah</span>
-              <span class="text-sm font-weight-light">Provinsi Sumatera Utara</span>
+              <span class="brand-text font-weight-bold">Pusat Penilaian<br>
+                Kompetensi ASN</span>
+              <span class="text-sm font-weight-light">Pemerintah Provinsi Sumatera Utara</span>
             </div>
           </div>
         </a>
@@ -58,7 +58,7 @@
             </li>
           </ul>
 
-          <button type="button" class="btn btn-masuk">Masuk</button>
+          <a href="https://cbt.berhala.net"><button type="button" class="btn btn-masuk">Masuk</button></a>
         </div>
 
       </div>
@@ -71,55 +71,7 @@
       <!-- Main content -->
       <div class="content">
         <div class="container">
-          <!-- Header -->
-          <div class="row">
-            <div class="col-lg-12">
-              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                </ol>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <header class="d-flex px-4 py-5 align-items-center justify-content-around">
-                      <div class="d-flex flex-column align-items-start">
-                        <h2 class="header-title-text ">Pengumuman Seleksi Jabatan A</h2>
-                        <p class="header-text">
-                          Selamat Datang <br />di Portal Pusat Asesmen<br /> Provinsi Sumatera Utara
-                        </p>
-                        <a class="btn btn-primary" href="#">Masuk <i class="fas fa-angle-right"></i></a>
-                      </div>
-                      <div class="d-flex flex-wrap">
-                        <img src="dist/img/assets/gubsu.png" class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid img-head-1" alt="Photo" />
-                        <img src="dist/img/assets/wagub.png" class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid img-head-1" alt="Photo" />
-                      </div>
-                    </header>
-                  </div>
-                  <div class="carousel-item">
-                    <header class="d-flex px-4 py-5 align-items-center justify-content-around">
-                      <div class="d-flex flex-column align-items-start">
-                        <h2 class="header-title-text ">Pengumuman Seleksi Jabatan A</h2>
-                        <p class="header-text">
-                          Selamat Datang <br />di Portal Pusat Asesmen<br /> Provinsi Sumatera Utara
-                        </p>
-                        <a class="btn btn-primary" href="#">Masuk <i class="fas fa-angle-right"></i></a>
-                      </div>
-                      <div class="d-flex flex-wrap">
-                        <img src="dist/img/assets/gubsu.png" class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid img-head-1" alt="Photo" />
-                        <img src="dist/img/assets/wagub.png" class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid img-head-1" alt="Photo" />
-                      </div>
-                    </header>
-                  </div>
-                </div>
-              </div>
 
-              <!-- /.card-body -->
-
-              <!-- /.card -->
-            </div>
-          </div>
-          <!-- /.header -->
-          <!-- /.row -->
 
           <?php
           $queries = array();

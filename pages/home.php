@@ -1,50 +1,71 @@
+<!-- Header -->
 <div class="row">
-    <!-- Section-Video -->
-    <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
-        <h3 class="mb-4 text-uppercase text-center">Video Pusat Asesmen<br> Provinsi Sumatera Utara</h3>
-        <video id='video' controls="controls" preload='none' width="600" poster="https://assets.codepen.io/32795/poster.png">
-            <source id='mp4' src="http://media.w3.org/2010/05/sintel/trailer.mp4" type='video/mp4' />
-        </video>
-    </section>
-    <!-- /.section-video -->
+    <div class="col-lg-12">
+        <header class="row px-4 py-5 align-items-center justify-content-around">
+            <div class="d-flex col-md-6 flex-wrap text-center">
+                <div class="d-flex flex-column align-items-center">
+                    <img src="dist/img/assets/gubsu.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
+                    <h6>Edy Rahmayadi</h6>
+                    <p class="header-left-text">Gubernur Sumatera Utara</p>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                    <img src="dist/img/assets/wagub.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
+                    <h6>Musa Rajekshah</h6>
+                    <p class="header-left-text">Wakil Gubernur Sumatera Utara</p>
+                </div>
+            </div>
+            <div class="col-md-3 flex-column align-items-start">
+                <h2 class="header-title-text text-center ">Selamat Datang
+                    di Portal Pusat Penilaian
+                    Kompetensi ASN
+                    Provinsi Sumatera Utara</h2>
+            </div>
+            <div class="col-md-3 d-flex flex-column text-center white-text">
+                <img src="dist/img/assets/kaban.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
+                <h6>H. Faisal Arif Nasution</h6>
+                <p>Kepala Badan Kepegawaian Daerah
+                    Provinsi Sumatera Utara</p>
+            </div>
+
+        </header>
+    </div>
 </div>
+<!-- /.header -->
 <!-- /.row -->
 
-<div class="row">
-    <section class="dark-bg col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
-        <h3 class="mb-4 text-uppercase text-center">Jenis Tes Asesmen</h3>
+<div class="row my-5">
+    <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
         <div class="row">
             <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card align-items-center green-bg">
-                    <div>
-                        <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
+                <div class="card dark-bg align-items-center">
+                    <div class="my-2">
+                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST RUTIN</h5>
-                        <p>Test rutin dilakukan untuk mendapatkan nilai managerial sosial atau teknis<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card align-items-center green-bg">
-                    <div>
-                        <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
-                    </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST PROMOSI</h5>
-                        <p>Test promosi jabatan dilakukan untuk naik ke jabatan tertentu</p>
+                    <div class="px-4 py-3">
+                        <h5>Judul Berita</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card align-items-center green-bg">
-                    <div>
-                        <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
+                <div class="card dark-bg align-items-center">
+                    <div class="my-2">
+                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST MUTASI</h5>
-                        <p>Test mutasi adalah tes untuk mutasi/ pindah dari instansi yang berbeda menuju Pemerintahan
-                            Provinsi Sumatera Utara </p>
+                    <div class="px-4 py-3">
+                        <h5>Judul Berita</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+                <div class="card dark-bg align-items-center">
+                    <div class="my-2">
+                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
+                    </div>
+                    <div class="px-4 py-3">
+                        <h5>Judul Berita</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
                     </div>
                 </div>
             </div>
