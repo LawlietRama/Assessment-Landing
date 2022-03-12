@@ -34,18 +34,6 @@
             <div class="card-header mb-4">
                 <h3 class="card-title"><i class="fas fa-bullhorn"></i> Kegiatan</h3>
             </div>
-            <!-- Search -->
-            <form action="#">
-                <div class="input-group px-3 mb-4">
-                    <input type="search" class="form-control form-control-lg" placeholder="Cari Berita">
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-lg btn-default">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <!-- ./search -->
 
             <!-- Post Kegiatan -->
             <div class="row mb-3 mx-2 align-items-center">
