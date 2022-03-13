@@ -66,6 +66,26 @@
     </nav>
     <!-- /.navbar -->
 
+    <!-- Bottom Navbar (only on tablets, mobiles) -->
+    <div class="d-lg-none">
+      <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark white-bg justify-content-around text-center">
+        <!-- Bottom Navbar content -->
+        <div class="col-4">
+          <a href="https://cbt.berhala.net"><i class="fa fa-sign-in" aria-hidden="true"></i> <br>Daftar/Login</a>
+        </div>
+        <div class="col-4">
+          <a href="?page=kontak"><i class="fa fa-ticket" aria-hidden="true"></i> <br>Helpdesk</a>
+        </div>
+        <div class="col-4">
+          <a href="https://www.google.com/maps/place/BKD+Prov.+Sumatera+Utara,+Jl.+Pangeran+Diponegoro+No.30,+Madras+Hulu,+Kec.+Medan+Polonia,+Kota+Medan,+Sumatera+Utara+20151/@3.580163,98.671545,15z/data=!4m2!3m1!1s0x30313161c4870b09:0x147d3ccbb17086f8?hl=id&gl=ID"><i class="fa fa-map-marker" aria-hidden="true"></i><br>Rute</a>
+        </div>
+
+        <!-- ./Bottom Navbar content -->
+      </nav>
+    </div>
+
+    <!-- ./Bottom Navbar (only on tablets, mobiles) -->
+
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
 

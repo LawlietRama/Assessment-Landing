@@ -26,7 +26,7 @@
 <div class="row">
     <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
         <h3 class="mb-4 text-uppercase text-center">Alur Sistem Seleksi</h3>
-        <div class="row align-items-center">
+        <div class="row align-items-start">
             <div class="col-sm">
                 <div class="card align-items-center green-bg">
                     <div>
@@ -78,7 +78,7 @@
                 </h3>
             </div>
             <div class="row mx-4 my-4">
-                <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="card px-2 py-2">
                         <div class="card-header mb-3">
                             <h4 card-title>1. Login sesuai kredensial yang dikirimkan oleh panitia melalui email</h4>
@@ -101,7 +101,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="card px-2 py-2">
                         <div class="card-header mb-3">
                             <h4 card-title>2. Seleksi Kompetensi Psoikotes Tahap Pertama</h4>
@@ -114,7 +114,7 @@
                     </div>
 
                 </div>
-                <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="card px-2 py-2">
                         <div class="card-header mb-3">
                             <h4 card-title>3. Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
@@ -130,7 +130,7 @@
 
                     </div>
                 </div>
-                <div class="col-sm-4 d-flex align-items-stretch">
+                <div class="col-lg-4 d-flex align-items-stretch">
                     <div class="card px-2 py-2">
                         <div class="card-header mb-3">
                             <h4 card-title>4. Lorem ipsum dolor sit amet consectetur</h4>
