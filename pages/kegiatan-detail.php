@@ -34,80 +34,51 @@
             <div class="card-header mb-4">
                 <h3 class="card-title"><i class="fas fa-bullhorn"></i> Kegiatan</h3>
             </div>
-            <!-- Search -->
-            <form action="#">
-                <div class="input-group px-3 mb-4">
-                    <input type="search" class="form-control form-control-lg" placeholder="Cari Berita">
-                    <div class="input-group-append">
-                        <button type="submit" class="btn btn-lg btn-default">
-                            <i class="fa fa-search"></i>
-                        </button>
-                    </div>
-                </div>
-            </form>
-            <!-- ./search -->
 
             <!-- Post Kegiatan -->
-            <div class="row mb-3 mx-2 align-items-center">
+            <div class="row mb-3 mx-2 justify-content-center">
                 <div class="col-sm-2 mx-2">
-                    <div class="date d-flex flex-column align-items-center">
+                    <div class="date mb-3 d-flex flex-column align-items-center">
                         <h4 class="pt-3">22</h4>
                         <p>Februari</p>
                         <h5 class="year text-center py-2">2022</h5>
                     </div>
                 </div>
 
-                <div class="col-sm-4">
-                    <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
-                </div>
-
-                <div class="col-sm-5 px-0 align-self-start">
-                    <h5>Tes Mutasi</h5>
-                    <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
-                        Provinsi Sumatera Utara</h6>
-                    <p>22 Februari 2022</p>
-                </div>
-            </div>
-            <div class="row mb-3 mx-2 align-items-center">
-                <div class="col-sm-2 mx-2">
-                    <div class="date d-flex flex-column align-items-center">
-                        <h4 class="pt-3">13</h4>
-                        <p>Januari</p>
-                        <h5 class="year text-center py-2">2022</h5>
-                    </div>
-                </div>
-
-                <div class="col-sm-4">
-                    <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
-                </div>
-
-                <div class="col-sm-5 px-0 align-self-start">
-                    <h5>Tes Promosi Jabatan</h5>
-                    <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
-                        Provinsi Sumatera Utara</h6>
-                    <p>13 Januari 2022</p>
+                <div class="col-sm-9">
+                    <img class="mx-auto d-block mb-2 float-md-left img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
                 </div>
             </div>
 
-            <nav aria-label="Page navigation example">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </li>
+            <!-- Main Article -->
+            <!-- Title article -->
+            <div class="px-4">
+                <div class="col-sm-6 px-0">
+                    <h4>Tes Mutasi</h4>
+                    <h5>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
+                        Provinsi Sumatera Utara</h5>
+                </div>
+                <!-- ./Title article -->
+
+                <p>Deskripsi</p>
+                <ul>
+                    <li>Perform test scoping, estimation, preparation, and execution for application enhancements and bug fixes.</li>
+                    <li>Administer detailed test plans, progress reports, and end of test reports.</li>
+                    <li>Analyze requirements documentation and provide constructive feedback with detailed test estimations.</li>
+                    <li>Liaise with product managers, Team Leads, and developers to accurately understand the systems and produce effective test scripts and execution plans.</li>
+                    <li>Proactively engage with all stakeholders to close gaps in requirements</li>
+                    <li>Define test scenarios based on business requirements and Debug, record, and manage defects throughout their lifecycle.</li>
+                    <li>Ensure application/system is delivered to the end-user with adequate quality.</li>
+                    <li>Create and own a scalable testing pipeline throughout the development lifecycle.</li>
                 </ul>
-            </nav>
+            </div>
+
+
+
+            <!-- ./Main Article -->
+
+
+
             <!-- ./Post Kegiatan -->
 
 

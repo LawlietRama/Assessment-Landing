@@ -2,17 +2,19 @@
 <div class="row">
     <div class="col-lg-12">
         <header class="row px-4 py-5 align-items-center justify-content-between">
-            <div class="col-md-4 flex-column align-items-start">
-                <h2 class="header-title-text ">Selamat Datang
+            <div class="col-xl-4 flex-column align-items-start">
+                <h2 class="header-title-text mb-3">Selamat Datang
                     di Portal Pusat Penilaian
                     Kompetensi ASN
                     Provinsi Sumatera Utara</h2>
             </div>
-            <div class="col-md-3 d-flex flex-column text-center white-text">
+            <div class="col-xl-3 d-flex flex-column text-center white-text">
                 <img src="dist/img/assets/kaban2.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
-                <h6>H. Faisal Arif Nasution</h6>
-                <p>Kepala Badan Kepegawaian Daerah
-                    Provinsi Sumatera Utara</p>
+                <div class="right-header-text">
+                    <h6>H. Faisal Arif Nasution</h6>
+                    <p>Kepala Badan Kepegawaian Daerah
+                        Provinsi Sumatera Utara</p>
+                </div>
             </div>
 
         </header>

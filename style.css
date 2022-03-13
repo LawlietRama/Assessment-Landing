@@ -90,6 +90,10 @@ header {
   margin-bottom: 0.5rem;
 }
 
+.footer-list a {
+  color: #012970;
+}
+
 /* .parallelogram {
   position: absolute;
   width: 20%;
@@ -113,4 +117,14 @@ header {
   align-self: stretch;
 
   margin: 0;
+}
+
+.right-header-text {
+  color: black;
+}
+
+@media only screen and (min-width: 1200px) {
+  .right-header-text {
+    color: white;
+  }
 }

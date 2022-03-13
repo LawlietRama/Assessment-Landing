@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
   <link rel="stylesheet" href="plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
@@ -105,20 +106,28 @@
 
           <!-- Secondary Footer -->
           <div class="secondary-footer row justify-content-between align-items-center">
-            <div class="col-5 px-4 py-5">
+            <div class="col-md-5 px-4 py-5">
               <h4>Pusat Asesmen Provinsi Sumatera Utara</h4>
 
               <p>Jl. Pangeran Diponegoro No.30,
                 Madras Hulu, Kec. Medan Polonia,
                 Kota Medan, Sumatera Utara 20151</p>
             </div>
-            <div class="col-3 px-4 py-5">
+            <div class="col-md-3 px-4 py-5">
               <h4>LINK</h4>
               <ul class="footer-list">
-                <li>Beranda</li>
-                <li>Alur</li>
-                <li>Kegiatan</li>
-                <li>Kontak</li>
+                <li>
+                  <a href="?page=beranda">Beranda</a>
+                </li>
+                <li>
+                  <a href="?page=alur">Alur</a>
+                </li>
+                <li>
+                  <a href="?page=kegiatan">Kegiatan</a>
+                </li>
+                <li>
+                  <a href="?page=kontak">Kontak</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -142,6 +151,7 @@
       <!-- Default to the left -->
 
     </footer>
+
   </div>
   <!-- ./wrapper -->
 
