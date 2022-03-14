@@ -21,7 +21,7 @@
                     Provinsi Sumatera Utara</h2>
             </div>
             <div class="col-xl-3 d-flex flex-column text-center white-text">
-                <img src="dist/img/assets/kaban.jpeg" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
+                <img src="dist/img/assets/kaban.png" class="mx-auto d-block mb-2 float-md-left img-fluid img-head-1" alt="Photo" />
                 <div class="right-header-text">
                     <h6>H. Faisal Arif Nasution</h6>
                     <p>Kepala Badan Kepegawaian Daerah
