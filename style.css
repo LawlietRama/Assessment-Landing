@@ -137,3 +137,30 @@ hr .style-six {
   height: 8px;
   border: 2px dashed #999;
 }
+
+.kegiatan-carousel-container {
+  position: relative;
+  height: 450px;
+}
+
+.kegiatan-carousel-pic {
+  object-fit: cover;
+}
+
+.kegiatan-carousel-container .kegiatan-title {
+  position: absolute; /* Position the background text */
+  bottom: 0px;
+  margin-bottom: 0;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.kegiatan-carousel-container .kegiatan-date {
+  position: absolute;
+  bottom: 0px;
+  right: 16px;
+  color: #f1f1f1; /* Grey text */
+}

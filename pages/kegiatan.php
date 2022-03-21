@@ -3,7 +3,7 @@
     <div class="col-lg-12">
         <header class="row px-4 py-5 align-items-center justify-content-between">
             <div class="col-md-4 flex-column align-items-start">
-                <h2 class="header-title-text ">Selamat Datang
+                <h2 class="header-title-text mb-4 text-center">Selamat Datang
                     di Portal Pusat Penilaian
                     Kompetensi ASN
                     Provinsi Sumatera Utara</h2>
@@ -12,10 +12,16 @@
                 <div class="lightbox">
                     <div class="row align-items-center">
                         <div class="col-lg-8">
-                            <img src="dist/img/assets/header-pic-1.png" alt="Header-pic-1" class="w-100 rounded" />
+                            <div class="d-none d-lg-block">
+                                <img src="dist/img/assets/header-pic-1.png" alt="Header-pic-1" class="w-100 rounded" />
+                            </div>
+                            <div class="d-lg-none mb-4">
+                                <img src="dist/img/assets/header-pic-1.png" alt="Header-pic-1" class="w-100 rounded" />
+                            </div>
+
                         </div>
                         <div class="col-lg-4">
-                            <img src="dist/img/assets/header-pic-2.png" alt="Header-pic-2" class="w-100 mb-2 mb-md-4  rounded" />
+                            <img src="dist/img/assets/header-pic-2.png" alt="Header-pic-2" class="w-100 mb-4 mb-md-4  rounded" />
                             <img src="dist/img/assets/header-pic-3.png" alt="Header-pic-3" class="w-100 rounded" />
                         </div>
                     </div>
@@ -29,7 +35,7 @@
 <!-- /.row -->
 
 <div class="row my-5">
-    <div class="col-md-8">
+    <div class="col-lg-8">
         <div class="card px-0">
             <div class="card-header mb-4">
                 <h3 class="card-title"><i class="fas fa-bullhorn"></i> Kegiatan</h3>
@@ -37,7 +43,7 @@
 
             <!-- Post Kegiatan -->
             <div class="row mb-3 mx-2 align-items-center">
-                <div class="col-sm-2 mx-2">
+                <div class="col-2 mx-2">
                     <div class="date d-flex flex-column align-items-center">
                         <h4 class="pt-3">22</h4>
                         <p>Februari</p>
@@ -45,11 +51,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-4">
                     <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
                 </div>
 
-                <div class="col-sm-5 px-0 align-self-start">
+                <div class="col-5 px-0 align-self-start">
                     <h5>Tes Mutasi</h5>
                     <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
                         Provinsi Sumatera Utara</h6>
@@ -57,7 +63,7 @@
                 </div>
             </div>
             <div class="row mb-3 mx-2 align-items-center">
-                <div class="col-sm-2 mx-2">
+                <div class="col-2 mx-2">
                     <div class="date d-flex flex-column align-items-center">
                         <h4 class="pt-3">13</h4>
                         <p>Januari</p>
@@ -65,11 +71,11 @@
                     </div>
                 </div>
 
-                <div class="col-sm-4">
+                <div class="col-4">
                     <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
                 </div>
 
-                <div class="col-sm-5 px-0 align-self-start">
+                <div class="col-5 px-0 align-self-start">
                     <h5>Tes Promosi Jabatan</h5>
                     <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
                         Provinsi Sumatera Utara</h6>
@@ -101,7 +107,7 @@
 
         </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-lg-4 d-none d-md-block">
         <div class="card">
             <div class="card-header mb-4">
                 <h3 class="card-title"><i class="fas fa-bullhorn"></i> Kegiatan</h3>

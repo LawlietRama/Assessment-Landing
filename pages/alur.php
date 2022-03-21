@@ -3,7 +3,7 @@
     <div class="col-lg-12">
         <header class="row px-4 py-5 align-items-center justify-content-between">
             <div class="col-xl-4 flex-column align-items-start">
-                <h2 class="header-title-text mb-3">Selamat Datang
+                <h2 class="header-title-text mb-3 text-center">Selamat Datang
                     di Portal Pusat Penilaian
                     Kompetensi ASN
                     Provinsi Sumatera Utara</h2>
@@ -32,10 +32,8 @@
                     <div>
                         <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST RUTIN</h5>
-                        <p>Test rutin dilakukan untuk mendapatkan nilai managerial sosial atau teknis</p>
-                        <a href="#" class="btn btn-masuk mt-auto align-self-start">TEST RUTIN</a>
+                    <div class="px-3 py-4 text-center white-bg">
+                        <h6>PENILAIAN KOMPETENSI UNTUK PEMETAAN JABATAN</h6>
                     </div>
                 </div>
             </div>
@@ -44,10 +42,8 @@
                     <div>
                         <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST PROMOSI</h5>
-                        <p>Test promosi jabatan dilakukan untuk naik ke jabatan tertentu</p>
-                        <a href="#" class="btn btn-masuk mt-auto align-self-start">TEST PROMOSI</a>
+                    <div class="px-3 py-4 text-center white-bg">
+                        <h6>PENILAIAN KOMPETENSI UNTUK PROMOSI JABATAN</h6>
                     </div>
                 </div>
             </div>
@@ -56,11 +52,8 @@
                     <div>
                         <img src="dist/img/assets/test-pic-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-2 py-3 text-center white-bg">
-                        <h5>TEST MUTASI</h5>
-                        <p>Test mutasi adalah tes untuk mutasi/ pindah dari instansi yang berbeda menuju Pemerintahan
-                            Provinsi Sumatera Utara </p>
-                        <a href="#" class="btn btn-masuk mt-auto align-self-start">TEST MUTASI</a>
+                    <div class="px-3 py-4 text-center white-bg">
+                        <h6>PENILAIAN KOMPETENSI UNTUK MUTASI/PINDAH</h6>
                     </div>
                 </div>
             </div>

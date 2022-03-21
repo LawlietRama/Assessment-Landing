@@ -37,44 +37,35 @@
 <!-- /.row -->
 
 <div class="row my-5">
-    <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
-        <h3><i class="fas fa-bullhorn"></i> Kegiatan</h3>
-        <hr />
-        <div class="row">
-
-            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card dark-bg align-items-center">
-                    <div class="my-2">
-                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
-                    </div>
-                    <div class="px-4 py-3">
-                        <h5>Judul Berita</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
-                    </div>
+    <section class="col-lg-12 align-items-center">
+        <h3 class="text-center"><i class="fas fa-bullhorn"></i> Kegiatan</h3>
+        <hr class="style-six" />
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="kegiatan-carousel-container carousel-item active">
+                    <img class="kegiatan-carousel-pic d-block w-100" src="dist/img/assets/berita-thumb-1.png" alt="Berita 1">
+                    <h4 class="kegiatan-title">Judul Berita 1</h4>
+                    <p class="kegiatan-date">30/12/2022</p>
+                </div>
+                <div class="kegiatan-carousel-container carousel-item">
+                    <img class="kegiatan-carousel-pic d-block w-100" src="dist/img/assets/header-pic-2.png" alt="Berita 2">
+                    <h4 class="kegiatan-title">Judul Berita 2</h4>
+                    <p class="kegiatan-date">30/12/2022</p>
+                </div>
+                <div class="kegiatan-carousel-container carousel-item">
+                    <img class="kegiatan-carousel-pic d-block w-100" src="dist/img/assets/image9.png" alt="Berita 3">
+                    <h4 class="kegiatan-title">Judul Berita 3</h4>
+                    <p class="kegiatan-date">30/12/2022</p>
                 </div>
             </div>
-            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card dark-bg align-items-center">
-                    <div class="my-2">
-                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
-                    </div>
-                    <div class="px-4 py-3">
-                        <h5>Judul Berita</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 mb-3 d-flex align-items-stretch">
-                <div class="card dark-bg align-items-center">
-                    <div class="my-2">
-                        <img src="dist/img/assets/berita-thumb-1.png" style="height: 174px" />
-                    </div>
-                    <div class="px-4 py-3">
-                        <h5>Judul Berita</h5>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
-                    </div>
-                </div>
-            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
     </section>
 </div>
@@ -96,7 +87,7 @@
             </div>
             <div class="col-lg-6 mb-3 d-none d-lg-block">
                 <h3>2. Panitia Kirim Email</h3>
-                <p>Panitia Pusat Penilaain Kompetensi ASN
+                <p>Panitia Pusat Penilaian Kompetensi ASN
                     Pemerintah Provinsi Sumatera Utara mengirimkan
                     email berupa user dan password</p>
             </div>
@@ -105,7 +96,7 @@
             </div>
             <div class="col-lg-6 mb-3 d-lg-none">
                 <h3>2. Panitia Kirim Email</h3>
-                <p>Panitia Pusat Penilaain Kompetensi ASN
+                <p>Panitia Pusat Penilaian Kompetensi ASN
                     Pemerintah Provinsi Sumatera Utara mengirimkan
                     email berupa user dan password</p>
             </div>
@@ -118,21 +109,22 @@
                     Pemerintah Provinsi Sumatera Utara</p>
             </div>
             <div class="col-lg-6 mb-3 d-none d-lg-block">
-                <h3>4. Ujian Seleksi Kompetensi</h3>
+                <h3>4. Penilaian Kompetensi</h3>
                 <p>Pelaksanaan ujian seleksi kompetensi ASN </p>
             </div>
             <div class="col-lg-6 mb-3">
                 <img src="dist/img/assets/timelinepic4.png" alt="Panitia Kirim Email" class="img-fluid">
             </div>
             <div class="col-lg-6 mb-3 d-lg-none">
-                <h3>4. Ujian Seleksi Kompetensi</h3>
+                <h3>4. Penilaian Kompetensi</h3>
                 <p>Pelaksanaan ujian seleksi kompetensi ASN </p>
             </div>
             <div class="col-lg-6 mb-3">
                 <img src="dist/img/assets/timelinepic5.png" alt="Panitia Kirim Email" class="img-fluid">
             </div>
             <div class="col-lg-6 mb-3">
-                <h3>5. Ujian Seleksi Simulasi dan Interview</h3>
+                <h3>5. Penilaian Kompetensi Melalui
+                    Simulasi dan Wawancara</h3>
                 <p>Pelaksanaan ujian seleksi Simulasi dan Interview ASN </p>
             </div>
         </div>

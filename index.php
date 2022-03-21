@@ -54,7 +54,7 @@
               <a href="?page=beranda" class="nav-link">Beranda</a>
             </li>
             <li class="nav-item">
-              <a href="?page=alur" class="nav-link">Tahapan Penilaian</a>
+              <a href="?page=alur" class="nav-link">Fungsi</a>
             </li>
             <li class="nav-item">
               <a href="?page=kegiatan" class="nav-link">Kegiatan</a>
@@ -163,7 +163,7 @@
                   <a href="?page=beranda">Beranda</a>
                 </li>
                 <li>
-                  <a href="?page=alur">Tahapan Penilaian</a>
+                  <a href="?page=alur">Fungsi</a>
                 </li>
                 <li>
                   <a href="?page=kegiatan">Kegiatan</a>
