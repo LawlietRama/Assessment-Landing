@@ -132,3 +132,8 @@ a {
     color: white;
   }
 }
+
+hr .style-six {
+  height: 8px;
+  border: 2px dashed #999;
+}

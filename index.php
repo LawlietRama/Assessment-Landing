@@ -4,7 +4,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pusat Asesmen | Beranda</title>
+  <title>Pusat Penilaian Kompetensi ASN</title>
+  <meta name="description" content="Pusat Penilaian Kompetensi ASN Pemerintah Provinsi Sumatera Utara" />
+  <meta property="og:title" content="Pusat Penilaian Kompetensi ASN" />
+  <meta property="og:url" content="https://berhala.net/landings" />
+  <meta property="og:description" content="Pusat Penilaian Kompetensi ASN Pemerintah Provinsi Sumatera Utara" />
+  <meta property="og:image" content="dist/img/assets/logo-provsu.png" />
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -25,7 +30,7 @@
   <div class="wrapper">
 
     <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+    <nav class="main-header navbar navbar-expand-lg navbar-light navbar-white">
       <div class="container">
         <a href="index.php" class="navbar-brand">
           <div class="mr-auto d-flex flex-row align-items-center">
@@ -38,18 +43,18 @@
           </div>
         </a>
 
-        <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse order-3 justify-content-end" id="navbarCollapse">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
           <!-- Left navbar links -->
           <ul class="navbar-nav">
             <li class="nav-item">
               <a href="?page=beranda" class="nav-link">Beranda</a>
             </li>
             <li class="nav-item">
-              <a href="?page=alur" class="nav-link">Alur</a>
+              <a href="?page=alur" class="nav-link">Tahapan Penilaian</a>
             </li>
             <li class="nav-item">
               <a href="?page=kegiatan" class="nav-link">Kegiatan</a>
@@ -59,8 +64,9 @@
             </li>
           </ul>
 
-          <a href="https://cbt.berhala.net"><button type="button" class="btn btn-masuk">Masuk</button></a>
+
         </div>
+        <a href="https://cbt.berhala.net"><button type="button" class="btn btn-masuk ">Masuk</button></a>
 
       </div>
     </nav>
@@ -126,27 +132,55 @@
 
           <!-- Secondary Footer -->
           <div class="secondary-footer row justify-content-between align-items-center">
-            <div class="col-md-5 px-4 py-5">
+            <div class="col-md-4 px-4 py-5">
               <h4>Pusat Asesmen Provinsi Sumatera Utara</h4>
 
               <p>Jl. Pangeran Diponegoro No.30,
                 Madras Hulu, Kec. Medan Polonia,
                 Kota Medan, Sumatera Utara 20151</p>
             </div>
-            <div class="col-md-3 px-4 py-5">
-              <h4>LINK</h4>
+            <div class="col-md-3 px-4 py-5 align-self-start">
+              <h5>KONTAK</h5>
+              <ul class="footer-list">
+                <li>
+                  No. tlpn : 021 786 3506
+                </li>
+                <li>
+                  Hp (wa) : 0857 76523987
+                </li>
+              </ul>
+              <h5>EMAIL</h5>
+              <ul class="footer-list">
+                <li>
+                  admintes@gmail.com
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3 px-4 py-5 align-self-start">
+              <h5>LINK</h5>
               <ul class="footer-list">
                 <li>
                   <a href="?page=beranda">Beranda</a>
                 </li>
                 <li>
-                  <a href="?page=alur">Alur</a>
+                  <a href="?page=alur">Tahapan Penilaian</a>
                 </li>
                 <li>
                   <a href="?page=kegiatan">Kegiatan</a>
                 </li>
                 <li>
                   <a href="?page=kontak">Kontak</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-2 px-4 py-5 align-self-start">
+              <h5>Website Terkait</h5>
+              <ul class="footer-list">
+                <li>
+                  <a href="#">BKD</a>
+                </li>
+                <li>
+                  <a href="#">Pemerintah Provinsi <br>Sumatera Utara</a>
                 </li>
               </ul>
             </div>

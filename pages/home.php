@@ -38,7 +38,10 @@
 
 <div class="row my-5">
     <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
+        <h3><i class="fas fa-bullhorn"></i> Kegiatan</h3>
+        <hr />
         <div class="row">
+
             <div class="col-lg-4 mb-3 d-flex align-items-stretch">
                 <div class="card dark-bg align-items-center">
                     <div class="my-2">
@@ -71,6 +74,66 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit tenetur, eveniet labore voluptatum ratione libero eligendi iure maxime ad, vitae exercitationem qui laudantium cupiditate cumque iste consequuntur necessitatibus quibusdam quis.<br></p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- /.row -->
+
+<!-- row -->
+<div class="row my-5">
+    <section class="col-lg-12 px-4 py-4 d-flex flex-column align-items-center">
+        <h3>Timeline Penilaian Kompetensi</h3>
+        <hr />
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-3">
+                <img src="dist/img/assets/timelinepic1.png" alt="Pengumuman Penilaian Kompetensi" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mb-3">
+                <h3>1. Pengumuman Penilaian Kompetensi</h3>
+                <p>Kebutuhan formasi jabatan tertentu di instansi
+                    Pemerintah Provinsi Sumatera Utara</p>
+            </div>
+            <div class="col-lg-6 mb-3 d-none d-lg-block">
+                <h3>2. Panitia Kirim Email</h3>
+                <p>Panitia Pusat Penilaain Kompetensi ASN
+                    Pemerintah Provinsi Sumatera Utara mengirimkan
+                    email berupa user dan password</p>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <img src="dist/img/assets/timelinepic2.png" alt="Panitia Kirim Email" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mb-3 d-lg-none">
+                <h3>2. Panitia Kirim Email</h3>
+                <p>Panitia Pusat Penilaain Kompetensi ASN
+                    Pemerintah Provinsi Sumatera Utara mengirimkan
+                    email berupa user dan password</p>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <img src="dist/img/assets/timelinepic3.png" alt="Panitia Kirim Email" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mb-3">
+                <h3>3. Penilaian Administrasi</h3>
+                <p>Kebutuhan formasi jabatan tertentu di instansi
+                    Pemerintah Provinsi Sumatera Utara</p>
+            </div>
+            <div class="col-lg-6 mb-3 d-none d-lg-block">
+                <h3>4. Ujian Seleksi Kompetensi</h3>
+                <p>Pelaksanaan ujian seleksi kompetensi ASN </p>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <img src="dist/img/assets/timelinepic4.png" alt="Panitia Kirim Email" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mb-3 d-lg-none">
+                <h3>4. Ujian Seleksi Kompetensi</h3>
+                <p>Pelaksanaan ujian seleksi kompetensi ASN </p>
+            </div>
+            <div class="col-lg-6 mb-3">
+                <img src="dist/img/assets/timelinepic5.png" alt="Panitia Kirim Email" class="img-fluid">
+            </div>
+            <div class="col-lg-6 mb-3">
+                <h3>5. Ujian Seleksi Simulasi dan Interview</h3>
+                <p>Pelaksanaan ujian seleksi Simulasi dan Interview ASN </p>
             </div>
         </div>
     </section>
