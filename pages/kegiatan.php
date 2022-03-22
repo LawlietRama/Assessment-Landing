@@ -51,14 +51,16 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1">
+                <div class="col-4"><a href="?page=kegiatan-detail">
+                        <img class="mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid" src="dist/img/assets/image9.png" alt="thumbnail-1"></a>
                 </div>
 
                 <div class="col-5 px-0 align-self-start">
-                    <h5>Tes Mutasi</h5>
-                    <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
-                        Provinsi Sumatera Utara</h6>
+                    <a href="?page=kegiatan-detail">
+                        <h5>Tes Mutasi</h5>
+                        <h6>Seleksi mutasi pindah masuk PNS ke Lingkungan Pemerintah
+                            Provinsi Sumatera Utara</h6>
+                    </a>
                     <p>22 Februari 2022</p>
                 </div>
             </div>

@@ -36,8 +36,8 @@
 <!-- /.header -->
 <!-- /.row -->
 
-<div class="row my-5">
-    <section class="col-lg-12 align-items-center">
+<div class="row my-5 justify-content-center">
+    <section class="col-lg-9 align-items-center">
         <h3 class="text-center"><i class="fas fa-bullhorn"></i> Kegiatan</h3>
         <hr class="style-six" />
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
