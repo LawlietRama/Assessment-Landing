@@ -27,32 +27,32 @@
     <section class="col-lg-12 px-4 py-4 mb-5 d-flex flex-column align-items-center">
         <h3 class="mb-4 text-uppercase text-center">FUNGSI PENILAIAN KOMPETENSI ASN</h3>
         <div class="row align-items-start">
-            <div class="col-sm">
-                <div class="card align-items-center green-bg">
+            <div class="col-lg-4">
+                <div class="card align-items-center dark-bg">
                     <div>
-                        <img class="my-3" src="dist/img/assets/test-pic-1.png" style="height: 174px" />
+                        <img class="img-fluid my-3" src="dist/img/assets/test-pic-1.png" style="height: 174px" />
                     </div>
-                    <div class="px-3 py-4 text-center white-bg">
+                    <div class="align-self-stretch px-3 py-4 text-center white-bg">
                         <h6>PENILAIAN KOMPETENSI UNTUK PEMETAAN JABATAN</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card align-items-center green-bg">
+            <div class="col-lg-4">
+                <div class="card align-items-center dark-bg">
                     <div>
-                        <img class="my-3" src="dist/img/assets/jabatan1.png" style="height: 174px" />
+                        <img class="img-fluid my-3" src="dist/img/assets/jabatan1.png" style="height: 174px" />
                     </div>
-                    <div class="px-3 py-4 text-center white-bg">
+                    <div class="align-self-stretch px-3 py-4 text-center white-bg">
                         <h6>PENILAIAN KOMPETENSI UNTUK PROMOSI JABATAN</h6>
                     </div>
                 </div>
             </div>
-            <div class="col-sm">
-                <div class="card align-items-center green-bg">
+            <div class="col-lg-4">
+                <div class="card align-items-center dark-bg">
                     <div>
-                        <img class="my-3" src="dist/img/assets/image4.png" style="height: 174px" />
+                        <img class="img-fluid my-3" src="dist/img/assets/image4.png" style="height: 174px" />
                     </div>
-                    <div class="px-3 py-4 text-center white-bg">
+                    <div class="align-self-stretch px-3 py-4 text-center white-bg">
                         <h6>PENILAIAN KOMPETENSI UNTUK MUTASI/PINDAH</h6>
                     </div>
                 </div>
