@@ -183,3 +183,15 @@ hr .style-six {
 #backToTopBtn:hover {
   background-color: #555;
 }
+
+.profile {
+  height: 174px;
+  width: 174px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid #92d0f3;
+}
+
+.profile-tester {
+  border: 10px solid #f3ea92;
+}

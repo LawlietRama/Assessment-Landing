@@ -4,7 +4,7 @@
         <header class="row px-4 py-5 align-items-center justify-content-between">
             <div class="col-xl-4 flex-column align-items-start">
                 <h2 class="header-title-text mb-3 text-center">Selamat Datang
-                    di Portal Pusat Penilaian
+                    di Pusat Penilaian
                     Kompetensi ASN
                     Provinsi Sumatera Utara</h2>
             </div>

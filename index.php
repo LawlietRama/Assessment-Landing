@@ -61,6 +61,9 @@
               <a href="?page=kegiatan" class="nav-link">Kegiatan</a>
             </li>
             <li class="nav-item">
+              <a href="?page=profil" class="nav-link">Profil</a>
+            </li>
+            <li class="nav-item">
               <a href="?page=kontak" class="nav-link">Kontak</a>
             </li>
           </ul>
@@ -107,7 +110,6 @@
           error_reporting(E_ALL ^ (E_NOTICE | E_WARNING));
           switch ($queries['page']) {
             case 'beranda':
-              # code...
               include __DIR__ . '/pages/home.php';
               break;
             case 'alur':
@@ -124,6 +126,9 @@
             case 'kegiatan-detail':
               include __DIR__ . '/pages/kegiatan-detail.php';
               break;
+            case 'profil':
+              include __DIR__ . '/pages/profil.php';
+              break;
             default:
               #code...
               include __DIR__ . '/pages/home.php';
@@ -134,7 +139,9 @@
           <!-- Secondary Footer -->
           <div class="secondary-footer row justify-content-between align-items-center">
             <div class="col-md-4 px-4 py-5">
-              <h4>Pusat Asesmen Provinsi Sumatera Utara</h4>
+              <h4>PUSAT PENILAIAN
+                KOMPETENSI ASN
+                PROVINSI SUMATERA UTARA</h4>
 
               <p>Jl. Pangeran Diponegoro No.30,
                 Madras Hulu, Kec. Medan Polonia,

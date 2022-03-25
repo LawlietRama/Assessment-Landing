@@ -16,7 +16,7 @@
             </div>
             <div class="col-xl-3 flex-column align-items-start">
                 <h2 class="header-title-text text-center mb-3">Selamat Datang
-                    di Portal Pusat Penilaian
+                    di Pusat Penilaian
                     Kompetensi ASN
                     Provinsi Sumatera Utara</h2>
             </div>
