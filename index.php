@@ -27,7 +27,7 @@
 </head>
 
 <body class="hold-transition layout-top-nav">
-  <button class="btn-masuk px-4" onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
+  <button class="btn-masuk px-4 d-none d-lg-block" onclick="topFunction()" id="backToTopBtn" title="Go to top"><i class="fas fa-arrow-up"></i></button>
   <div class="wrapper">
 
     <!-- Navbar -->
@@ -175,6 +175,9 @@
                 </li>
                 <li>
                   <a href="?page=kegiatan">Kegiatan</a>
+                </li>
+                <li>
+                  <a href="?page=profil">Profil</a>
                 </li>
                 <li>
                   <a href="?page=kontak">Kontak</a>
