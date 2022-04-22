@@ -70,7 +70,7 @@
 
 
         </div>
-        <a href="https://cbt.berhala.net"><button type="button" class="btn btn-masuk ">Masuk</button></a>
+        <a href="https://pusatasesmen.sumutprov.go.id/cbt"><button type="button" class="btn btn-masuk ">Masuk</button></a>
 
       </div>
     </nav>
@@ -81,7 +81,7 @@
       <nav class="navbar fixed-bottom navbar-expand-lg navbar-dark white-bg justify-content-around text-center">
         <!-- Bottom Navbar content -->
         <div class="col-4">
-          <a href="https://cbt.berhala.net"><i class="fa fa-sign-in" aria-hidden="true"></i> <br>Daftar/Login</a>
+          <a href="https://pusatasesmen.sumutprov.go.id/cbt"><i class="fa fa-sign-in" aria-hidden="true"></i> <br>Daftar/Login</a>
         </div>
         <div class="col-4">
           <a href="?page=kontak"><i class="fa fa-ticket" aria-hidden="true"></i> <br>Helpdesk</a>
