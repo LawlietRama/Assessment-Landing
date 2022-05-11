@@ -59,24 +59,25 @@
     </div>
   </div>
   <div class="col-md-6">
-    <form action="#">
+    <form action="https://formsubmit.co/82720811b5330c939dd37bb2ff004e54" method="POST">
 
 
       <h3>
         Menghubungi kami
       </h3>
       <p>Anda dapat menghubungi kami melalui formulir di bawah ini</p>
+
       <div class="row">
         <div class="col-6 ">
           <div class="form-group">
             <label>Nama Anda</label>
-            <input type="text" class="form-control" placeholder="Nama lengkap" required>
+            <input type="text" class="form-control" name="name" placeholder="Nama lengkap" required>
           </div>
         </div>
         <div class="col-6">
           <div class="form-group">
             <label>Email Anda</label>
-            <input type="email" class="form-control" placeholder="Email" required>
+            <input type="email" name="email" class="form-control" placeholder="Email" required>
           </div>
         </div>
       </div>
@@ -84,13 +85,13 @@
         <div class="col-6 ">
           <div class="form-group">
             <label>Telepon/HP Anda</label>
-            <input type="tel" class="form-control" placeholder="Telp/HP" required>
+            <input type="tel" class="form-control" name="telephone" placeholder="Telp/HP" required>
           </div>
         </div>
         <div class=" col-6">
           <div class="form-group">
             <label>Judul Anda</label>
-            <input type="text" class="form-control" placeholder="Judul Pesan" required>
+            <input type="text" class="form-control" name="title" placeholder="Judul Pesan" required>
           </div>
         </div>
       </div>
@@ -98,12 +99,13 @@
         <div class="col-12 ">
           <div class="form-group">
             <label>Pesan Anda</label>
-            <textarea class="form-control" rows="3" placeholder="Tulis pesan" required></textarea>
+            <textarea class="form-control" rows="3" name="message" placeholder="Tulis pesan" required></textarea>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-5 mb-4"><input type="submit" class="btn btn-block btn-primary" value="Hapus"></input></div>
+        <div class="col-md-5 mb-4"><input type="reset" class="btn btn-block btn-primary" value="Hapus"></input>
+        </div>
         <div class="col-md-5"><input type="submit" class="btn btn-block btn-primary" value="Kirim Pesan"></input></div>
       </div>
 

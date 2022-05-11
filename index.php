@@ -129,6 +129,9 @@
             case 'profil':
               include __DIR__ . '/pages/profil.php';
               break;
+            case 'thankyou':
+              include __DIR__ . '/pages/thankyou.php';
+              break;
             default:
               #code...
               include __DIR__ . '/pages/home.php';
