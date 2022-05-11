@@ -154,16 +154,16 @@
               <h5>KONTAK</h5>
               <ul class="footer-list">
                 <li>
-                  No. tlpn : 021 786 3506
+                  No. tlpn : -
                 </li>
                 <li>
-                  Hp (wa) : 0857 76523987
+                  Hp (wa) : -
                 </li>
               </ul>
               <h5>EMAIL</h5>
               <ul class="footer-list">
                 <li>
-                  admintes@gmail.com
+                  pusatasesmen@sumutprov.go.id
                 </li>
               </ul>
             </div>
