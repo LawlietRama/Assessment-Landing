@@ -59,7 +59,7 @@
     </div>
   </div>
   <div class="col-md-6">
-    <form action="https://formsubmit.co/82720811b5330c939dd37bb2ff004e54" method="POST">
+    <form action="?page=send" method="POST">
 
 
       <h3>
