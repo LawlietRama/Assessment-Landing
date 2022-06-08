@@ -36,6 +36,7 @@ function Send_Mail($to, $subject, $body)
   $mail->Port = 465;
   $mail->SMTPAuth = true;
   $mail->SMTPSecure = 'ssl';
+  // $mail->SMTPDebug = 2;
 
 
   $mail->setFrom($email_pengirim, $nama_pengirim);

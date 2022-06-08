@@ -1,3 +1,11 @@
+<?php
+// Create database connection using config file
+include_once("config.php");
+
+// Fetch all users data from database
+$result = mysqli_query($mysqli, "SELECT * FROM ujians ORDER BY id DESC");
+?>
+
 <!-- Header -->
 <div class="row">
   <div class="col-lg-12">
@@ -62,7 +70,46 @@
           </a>
           <p>27 April 2022</p>
         </div>
+
+
       </div>
+
+
+      <?php
+      while ($data = mysqli_fetch_array($result)) {
+        echo
+        "<div class='row mb-3 mx-2 align-items-start'>
+        <div class='col-2 mx-2'>
+          <div class='date d-flex flex-column align-items-center'>
+            <h4 class='pt-3'>27</h4>
+            <p>April</p>
+            <h5 class='year text-center py-2'>2022</h5>
+          </div>
+        </div>
+
+        <div class='col-4'><a href='?page=kegiatan-detail'>
+            <img class='mx-auto d-block mb-2 float-md-left mr-md-4 img-fluid' src='dist/img/assets/berita-thumb-2.png' alt='thumbnail-1'></a>
+        </div>
+
+        <div class='col-5 px-0 align-self-start'>
+          <a href='?page=kegiatan-detail'>
+            <h5>Ujian " . $data['name'] . "</h5>
+            <p>Website Pusat Asesmen akan launching pada tanggal 23 Mei 2022</p>
+          </a>
+          <p>27 April 2022</p>
+        </div>
+
+
+      </div>";
+      }
+      ?>
+
+
+
+
+
+
+
 
       <nav aria-label="Page navigation example">
         <ul class="pagination justify-content-center">
